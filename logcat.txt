@@ -1,0 +1,92 @@
+02-26 21:07:44.210 E/(1): DEVENC:fn_unmount_dev: Error [Invalid argument] unmounting /efs.
+02-26 21:07:44.218 E/(1): DEVENC:fn_unmount_dev: Error [Invalid argument] unmounting /efs.
+02-26 21:07:51.453 E/PackageManager(1255): Adding duplicate user id: 10032 name=com.iloen.melon
+02-26 21:07:51.453 E/PackageManager(1255): Failure adding uid 10032 while parsing settings at line -1, column -1
+02-26 21:07:54.023 E/PackageManager(1255): Adding duplicate user id: 10032 name=com.iloen.melon
+02-26 21:08:04.757 E/AndroidRuntime(1343): FATAL EXCEPTION: main
+02-26 21:08:04.757 E/AndroidRuntime(1343): java.lang.RuntimeException: Unable to create service com.android.systemui.statusbar.StatusBarService: java.lang.IllegalStateException: ScrollView can host only one direct child
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.app.ActivityThread.handleCreateService(ActivityThread.java:1959)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.app.ActivityThread.access$2500(ActivityThread.java:117)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:989)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.os.Handler.dispatchMessage(Handler.java:99)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.os.Looper.loop(Looper.java:130)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.app.ActivityThread.main(ActivityThread.java:3687)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at java.lang.reflect.Method.invokeNative(Native Method)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at java.lang.reflect.Method.invoke(Method.java:507)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:842)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:600)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at dalvik.system.NativeStart.main(Native Method)
+02-26 21:08:04.757 E/AndroidRuntime(1343): Caused by: java.lang.IllegalStateException: ScrollView can host only one direct child
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.widget.ScrollView.addView(ScrollView.java:284)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:627)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:626)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:626)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.inflate(LayoutInflater.java:408)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.inflate(LayoutInflater.java:320)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.LayoutInflater.inflate(LayoutInflater.java:276)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.view.View.inflate(View.java:8879)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at com.android.systemui.statusbar.StatusBarService.makeStatusBarView(StatusBarService.java:316)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at com.android.systemui.statusbar.StatusBarService.onCreate(StatusBarService.java:240)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   at android.app.ActivityThread.handleCreateService(ActivityThread.java:1949)
+02-26 21:08:04.757 E/AndroidRuntime(1343):   ... 10 more
+02-26 21:08:09.656 E/Vold(1159): discard failed (unknown exit code 255)
+02-26 21:08:17.164 E/MediaScanner(1357): scanDirectories : ExternalStorageState[checking]... do not need to postscan
+02-26 21:08:17.585 E/DevicePolicyManagerService(1255): setAllowCamera() : admin is null. set systemproperties.dpm.allowcamera : true
+02-26 21:08:23.320 E/PowerManagerService(1255): CurLock p:2 mPS:7
+02-26 21:08:26.320 E/PowerManagerService(1255): CurLock p:3 mPS:7
+02-26 21:08:36.328 E/AndroidRuntime(1668): FATAL EXCEPTION: main
+02-26 21:08:36.328 E/AndroidRuntime(1668): java.lang.RuntimeException: Unable to create service com.android.systemui.statusbar.StatusBarService: java.lang.IllegalStateException: ScrollView can host only one direct child
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.app.ActivityThread.handleCreateService(ActivityThread.java:1959)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.app.ActivityThread.access$2500(ActivityThread.java:117)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:989)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.os.Handler.dispatchMessage(Handler.java:99)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.os.Looper.loop(Looper.java:130)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.app.ActivityThread.main(ActivityThread.java:3687)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at java.lang.reflect.Method.invokeNative(Native Method)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at java.lang.reflect.Method.invoke(Method.java:507)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:842)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:600)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at dalvik.system.NativeStart.main(Native Method)
+02-26 21:08:36.328 E/AndroidRuntime(1668): Caused by: java.lang.IllegalStateException: ScrollView can host only one direct child
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.widget.ScrollView.addView(ScrollView.java:284)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:627)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:626)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.rInflate(LayoutInflater.java:626)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.inflate(LayoutInflater.java:408)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.inflate(LayoutInflater.java:320)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.LayoutInflater.inflate(LayoutInflater.java:276)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.view.View.inflate(View.java:8879)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at com.android.systemui.statusbar.StatusBarService.makeStatusBarView(StatusBarService.java:316)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at com.android.systemui.statusbar.StatusBarService.onCreate(StatusBarService.java:240)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   at android.app.ActivityThread.handleCreateService(ActivityThread.java:1949)
+02-26 21:08:36.328 E/AndroidRuntime(1668):   ... 10 more
+02-26 21:08:41.632 E/MountService(1255): getStorageSerialNumber :: Failed to get root path of mmc /mnt/sdcard/external_sd
+02-26 21:08:54.477 E/KIES_START(2640): process_action_event_ums_connection()
+02-26 21:08:54.516 E/GlassLockScreenMusicWidget(1255): onReceive() : intent=Intent { act=android.intent.action.SCREEN_OFF flg=0x40000000 }
+02-26 21:08:56.586 E/DiskCacheSEC(2525): checksum matched -- wanted: -1761702962, got: -1761702962
+02-26 21:08:58.055 E/KDRM(1357): [KDRM] Input file cannot be opened handle = 0
+02-26 21:08:58.453 E/MediaScannerService(1357): Exception in handleMessage
+02-26 21:08:58.453 E/MediaScannerService(1357): android.os.DeadObjectException
+02-26 21:08:58.453 E/MediaScannerService(1357):   at android.os.BinderProxy.transact(Native Method)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at android.media.IMediaScannerListener$Stub$Proxy.scanCompleted(IMediaScannerListener.java:100)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at com.android.providers.media.MediaScannerService$ServiceHandler.handleMessage(MediaScannerService.java:298)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at android.os.Handler.dispatchMessage(Handler.java:99)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at android.os.Looper.loop(Looper.java:130)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at com.android.providers.media.MediaScannerService.run(MediaScannerService.java:231)
+02-26 21:08:58.453 E/MediaScannerService(1357):   at java.lang.Thread.run(Thread.java:1019)
+02-26 21:08:58.484 E/MountService(1255): getStorageSerialNumber :: Failed to get root path of mmc /mnt/sdcard/external_sd
+02-26 21:08:58.695 E/MediaProvider(1357): removeMediaDBData called
+02-26 21:09:01.336 E/KDRM(1357): [KDRM] Input file cannot be opened handle = 0
+02-26 21:09:01.688 E/MediaScanner(1357): Cannot get device path from mount info. Check SD Unmounted.
+02-26 21:09:01.891 E/DiskCache(2525): Delete All Cache Files!!!
+02-26 21:09:01.922 E/CscReceiver(1356): onReceive android.intent.action.MEDIA_SCANNER_FINISHED
+02-26 21:09:01.930 E/CscParser(1356): fileName + /system/csc/customer.xml
+02-26 21:09:01.984 E/CscParser(1356): fileName + /system/csc/customer.xml
+02-26 21:09:02.078 E/DiskCache(2525): Delete All Cache Files!!!
+02-26 21:09:02.227 E/MountService(1255): getStorageSerialNumber :: Failed to get root path of mmc /mnt/sdcard/external_sd
+02-26 21:09:02.398 E/MediaProvider(1357): removeMediaDBData called
+02-26 21:09:03.031 E/KDRM(1357): [KDRM] Input file cannot be opened handle = 0
+02-26 21:09:16.914 E/RilSupportBroadCastReceiver(1356): TSP 2
+02-26 21:11:30.125 E/UNA(2853): StartConnectODS::MCC Vaule is -1. Thus, UNA Engine cannot connect AStore.
+02-26 21:23:26.578 E/dalvikvm(2618): Could not find class 'android.app.Notification$InboxStyle', referenced from method com.google.android.apps.plus.service.AndroidNotification.createDigestNotification$78923c81
+02-26 21:23:26.648 E/dalvikvm(2618): Could not find class 'android.app.Notification$Builder', referenced from method com.google.android.apps.plus.service.AndroidNotification.createNotification
